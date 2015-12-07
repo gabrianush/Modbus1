@@ -1,0 +1,1 @@
+C:\Users\Gabriel\Desktop\ModBus.Core\ModelBus.GUI\bin\Debug\ModelBus.GUI.exe.config

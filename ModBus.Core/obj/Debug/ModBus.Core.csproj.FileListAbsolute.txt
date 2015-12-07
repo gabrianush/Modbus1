@@ -1,0 +1,19 @@
+C:\Users\Gabriel\Desktop\Leap motion\ModBus.Core\ModBus.Core\bin\Debug\ModBus.Core.dll
+C:\Users\Gabriel\Desktop\Leap motion\ModBus.Core\ModBus.Core\bin\Debug\ModBus.Core.pdb
+C:\Users\Gabriel\Desktop\Leap motion\ModBus.Core\ModBus.Core\obj\Debug\ModBus.Core.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Desktop\Leap motion\ModBus.Core\ModBus.Core\obj\Debug\ModBus.Core.dll
+C:\Users\Gabriel\Desktop\Leap motion\ModBus.Core\ModBus.Core\obj\Debug\ModBus.Core.pdb
+C:\Users\Marius\Desktop\ModBus\ModBus.Core\bin\Debug\ModBus.Core.dll
+C:\Users\Marius\Desktop\ModBus\ModBus.Core\bin\Debug\ModBus.Core.pdb
+C:\Users\Marius\Desktop\ModBus\ModBus.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marius\Desktop\ModBus\ModBus.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marius\Desktop\ModBus\ModBus.Core\obj\Debug\ModBus.Core.csprojResolveAssemblyReference.cache
+C:\Users\Marius\Desktop\ModBus\ModBus.Core\obj\Debug\ModBus.Core.dll
+C:\Users\Marius\Desktop\ModBus\ModBus.Core\obj\Debug\ModBus.Core.pdb
+C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\bin\Debug\ModBus.Core.dll
+C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\bin\Debug\ModBus.Core.pdb
+C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\obj\Debug\ModBus.Core.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\obj\Debug\ModBus.Core.dll
+C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\obj\Debug\ModBus.Core.pdb
