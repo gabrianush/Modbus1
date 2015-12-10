@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.Reflection;
 
 namespace ModBus.Core.Utils
 {
@@ -15,5 +16,8 @@ namespace ModBus.Core.Utils
         public const string DATA_BITS_NOT_FOUND = "Data bits not found!";
         public const string STOP_BITS_NOT_FOUND = "Stop bits not found!";
         public const string PARITY_NOT_FOUND = "Parity not found!";
+
+        
     }
 }
+  

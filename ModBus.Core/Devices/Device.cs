@@ -7,10 +7,13 @@ using System.Threading.Tasks;
 
 namespace ModBus.Core.Devices
 {
-    public class Device
+    public class Device : BaseEntity
     {
+        const string ID_PATTERN = "{0}_d{1}";
         private int _slaveID;
         private List<Transaction> _transactions;
+        private Guid _guid;
+
         public int SlaveID
         {
             get
@@ -37,7 +40,16 @@ namespace ModBus.Core.Devices
             }
         }
 
-        public Device()
+        protected override string ID_PATERN
+        {
+            get
+            {
+                return "{1}_d{0}";
+            }
+        }
+
+        public Device(string parentId) : 
+            base(parentId)
         {
             _transactions = new List<Transactions.Transaction>();
         }

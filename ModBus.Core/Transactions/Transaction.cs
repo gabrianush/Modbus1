@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModBus.Core.Transactions
 {
-    public class Transaction
+    public class Transaction : BaseEntity
     {
         protected int _offset;
         protected int _length;
@@ -34,6 +34,20 @@ namespace ModBus.Core.Transactions
             {
                 _length = value;
             }
+        }
+
+        protected override string ID_PATERN
+        {
+            get
+            {
+                return "{1}_t{0}";
+            }
+        }
+
+        public Transaction(string parentId) 
+            : base(parentId)
+        {
+
         }
     }
 }

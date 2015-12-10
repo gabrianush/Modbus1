@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ModBus.Core.Connections
 {
-    public class Connection
+    public class Connection : BaseEntity
     {
         protected int _timeOut;
         protected List<Device> _devices;
@@ -18,6 +18,7 @@ namespace ModBus.Core.Connections
         {
             get { throw new NotImplementedException(); }
         }
+
         public int TimeOut
         {
             get
@@ -44,7 +45,21 @@ namespace ModBus.Core.Connections
             }
         }
 
-        public Connection()
+        protected override string ID_PATERN
+        {
+            get
+            {
+                return "c{0}";
+            }
+        }
+
+        public Connection() 
+            :this(string.Empty)
+        {
+        }
+
+        public Connection(string parentId)
+            : base(parentId)
         {
             _devices = new List<Device>();
         }

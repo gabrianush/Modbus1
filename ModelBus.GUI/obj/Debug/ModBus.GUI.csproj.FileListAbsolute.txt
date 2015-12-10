@@ -81,3 +81,6 @@ C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModelBus.GUI\obj\Debug\ModBus.GUI.UserCo
 C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModelBus.GUI\obj\Debug\ModBus.GUI.SettingsContainerRight.resources
 C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModelBus.GUI\obj\Debug\ModBus.GUI.UserControlSettings.resources
 C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModelBus.GUI\obj\Debug\ModBus.GUI.csproj.GenerateResource.Cache
+D:\GitHub\Modbus1\ModelBus.GUI\bin\Debug\ModBus.GUI.exe.config
+D:\GitHub\Modbus1\ModelBus.GUI\obj\Debug\ModBus.GUI.exe
+D:\GitHub\Modbus1\ModelBus.GUI\obj\Debug\ModBus.GUI.pdb

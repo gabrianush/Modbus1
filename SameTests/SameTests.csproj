@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8027115E-FE17-4088-9901-49D27B51E80D}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{53D0D1E5-F8CC-430F-A112-829FB55B8025}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ModBus.Core</RootNamespace>
-    <AssemblyName>ModBus.Core</AssemblyName>
+    <RootNamespace>SameTests</RootNamespace>
+    <AssemblyName>SameTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -30,10 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,35 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseEntity.cs" />
-    <Compile Include="Connections\Enums\ConnectionType.cs" />
-    <Compile Include="Connections\SerialConnections\BaudRate.cs" />
-    <Compile Include="Connections\Connection.cs" />
-    <Compile Include="Connections\SerialConnections\DataBits.cs" />
-    <Compile Include="Connections\SerialConnections\Parity.cs" />
-    <Compile Include="Connections\SerialConnections\SerialPort.cs" />
-    <Compile Include="Connections\SerialConnections\StopBits.cs" />
-    <Compile Include="Data\DataType.cs" />
-    <Compile Include="Devices\Device.cs" />
-    <Compile Include="Services\Connections\ConnectionEventArgs.cs" />
-    <Compile Include="Services\Connections\ConnectionsService.cs" />
-    <Compile Include="Settings\Config.cs" />
-    <Compile Include="Transactions\ReadTransactions\Enums\ReadTask.cs" />
-    <Compile Include="Transactions\ReadTransactions\ReadTransaction.cs" />
-    <Compile Include="Connections\SerialConnections\SerialConnection.cs" />
-    <Compile Include="Connections\TCPConnections\TCPConnection.cs" />
-    <Compile Include="Transactions\Transaction.cs" />
-    <Compile Include="Transactions\WriteTransactions\Enums\WriteTask.cs" />
-    <Compile Include="Transactions\WriteTransactions\WriteTransaction.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\Extensions\EnumExtensions.cs" />
-    <Compile Include="Utils\Serialization\JsonUtils.cs" />
-    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Tests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ModBus.Core\ModBus.Core.csproj">
+      <Project>{8027115e-fe17-4088-9901-49d27b51e80d}</Project>
+      <Name>ModBus.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

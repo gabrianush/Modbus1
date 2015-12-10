@@ -17,3 +17,10 @@ C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\bin\Debug\Newtonsoft.Json.xm
 C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\obj\Debug\ModBus.Core.csprojResolveAssemblyReference.cache
 C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\obj\Debug\ModBus.Core.dll
 C:\Users\Gabriel\Desktop\ModBus2\ModBus\ModBus.Core\obj\Debug\ModBus.Core.pdb
+D:\GitHub\Modbus1\ModBus.Core\obj\Debug\ModBus.Core.csprojResolveAssemblyReference.cache
+D:\GitHub\Modbus1\ModBus.Core\obj\Debug\ModBus.Core.dll
+D:\GitHub\Modbus1\ModBus.Core\obj\Debug\ModBus.Core.pdb
+D:\GitHub\Modbus1\ModBus.Core\bin\Debug\ModBus.Core.dll
+D:\GitHub\Modbus1\ModBus.Core\bin\Debug\ModBus.Core.pdb
+D:\GitHub\Modbus1\ModBus.Core\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\Modbus1\ModBus.Core\bin\Debug\Newtonsoft.Json.xml

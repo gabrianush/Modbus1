@@ -37,5 +37,9 @@ namespace ModBus.Core.Transactions.WriteTransactions
                 _value = value;
             }
         }
+
+        public  WriteTransaction(string parentId)
+            :base(parentId)
+        { }
     }
 }

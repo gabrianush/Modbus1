@@ -47,6 +47,11 @@ namespace ModBus.Core.Connections.TCPConnections
                 _port = value;
             }
         }
+
+        public override string ToString()
+        {
+            return string.Format("TCP {0}:{1} timeout: {2}", IPAddress, Port, TimeOut);
+        }
     }
 
 }

@@ -25,14 +25,6 @@ namespace ModBus.Core.Connections.SerialConnections
             }
         }
 
-        public override bool Equals(object obj)
-        {
-            SerialConnection serial = obj as SerialConnection;
-            if (serial == null) return false;
-            return PortName == serial.PortName
-                    && BaudRate == serial.BaudRate;
-                    //&& 
-        }
         public string PortName
         {
             get
@@ -96,6 +88,11 @@ namespace ModBus.Core.Connections.SerialConnections
             {
                 _parity = value;
             }
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0}:{1},{2},{3:2} timeout: {4}", PortName, BaudRate, Parity.ToString()[0], StopBits, TimeOut);
         }
     }
 }

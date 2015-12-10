@@ -22,5 +22,11 @@ namespace ModBus.Core.Transactions.ReadTransactions
                 _readTask = value;
             }
         }
+
+        public ReadTransaction(string parentId)
+            : base(parentId)
+        {
+
+        }
     }
 }
